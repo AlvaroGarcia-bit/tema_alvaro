@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     
-    <h1>MI PRIMER BLOG FRESITA!!!!! </h1>
+    <h1>Mi intento de blog  </h1>
 
 <?php
 
@@ -15,7 +15,7 @@ if ( have_posts() ) {
         the_excerpt();
   }
 } else{
-    echo "NO HAY POSTS!!!!!";
+    echo "si ves esto, no he tenido la motivación de hacerlo";
 }
 
 ?>

@@ -7,7 +7,7 @@ get_header();
 
 <h3><?php the_content();?></h3>
 
-<a href="blog">Visita mi blog</a>
+<a href="blog">Little Boy</a>
 
 <?php
     get_footer();
