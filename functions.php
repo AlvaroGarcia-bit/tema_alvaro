@@ -1,5 +1,5 @@
 <?php
-function dmartinez_scripts(){
+function garciagarcia(){
     wp_enqueue_style('mi-css', get_stylesheet_uri(), array(), '1.0.0');
 
     if ( is_page('contacto') ) {
@@ -7,6 +7,6 @@ function dmartinez_scripts(){
     }
 }
 
-add_action( 'wp_enqueue_scripts', 'dmartinez_scripts');
+add_action( 'wp_enqueue_scripts', 'garciagarcia');
 
 ?>
